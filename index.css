@@ -1,0 +1,26 @@
+.navigation-bar{
+    display: flex;
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(209, 207, 207);
+    gap: 45px;
+    align-items: center;
+}
+.logo{
+    align-items: center;
+    display: flex;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+}
+.profile-section{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.profile-img{
+    height: 40px;
+    width: 40px;
+}
