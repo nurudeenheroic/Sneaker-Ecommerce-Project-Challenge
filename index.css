@@ -148,6 +148,7 @@ body{
     display: flex;
     box-sizing: border-box;
     align-items: center;
+    cursor: pointer;
     justify-content: center;
     gap: 5px;
     color: rgb(82, 81, 81);
