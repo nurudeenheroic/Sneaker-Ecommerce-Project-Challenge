@@ -64,14 +64,16 @@ body{
     flex-direction: row;
     gap: 10px;
 }
-.thumbnail-container{
+.thumbnail-container-product-1, .thumbnail-container-product-2, .thumbnail-container-product-3, .thumbnail-container-product-4 {
     flex: 1;
     border-radius: 8px;
     border: none;
     box-sizing: border-box;
+    padding: 0;
+    background-color: white;
     border: 3px solid white;
 }
-.thumbnail-container:hover{
+.thumbnail-container-product-1:hover, .thumbnail-container-product-2:hover, .thumbnail-container-product-3:hover, .thumbnail-container-product-4:hover{
     border: 3px solid hsl(26, 100%, 55%) ;
     opacity: 0.7;
 }

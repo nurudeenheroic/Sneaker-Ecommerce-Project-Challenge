@@ -40,10 +40,55 @@ let products = [{
 }];
 let thumbnails = '';
 products.forEach((product) => {
-    console.log(product.name);
-    let thumbnailHTML = `<div class="thumbnail-container">
+    let thumbnailHTML = `<button class="thumbnail-container-${product.name}">
     <img src="./images/image-${product.name}-thumbnail.jpg" alt="" class="thumbnail">
-    </div>`;
+    </button>`;
     thumbnails += thumbnailHTML;
 });
 document.querySelector('.thumbnail-div-container').innerHTML = thumbnails;
+
+
+document.querySelector('.thumbnail-container-product-1').addEventListener("click", () => {
+    document.querySelector('.thumbnail-container-product-1').style.border = '3px solid hsl(26, 100%, 55%) ';
+    document.querySelector('.thumbnail-container-product-1').style.opacity = '0.7';
+
+    document.querySelector('.thumbnail-container-product-2').style.border = '3px solid white';
+    document.querySelector('.thumbnail-container-product-2').style.opacity = '1';
+    document.querySelector('.thumbnail-container-product-3').style.border = '3px solid white';
+    document.querySelector('.thumbnail-container-product-3').style.opacity = '1';
+    document.querySelector('.thumbnail-container-product-4').style.border = '3px solid white';
+    document.querySelector('.thumbnail-container-product-4').style.opacity = '1';
+});
+document.querySelector('.thumbnail-container-product-2').addEventListener("click", () => {
+    document.querySelector('.thumbnail-container-product-2').style.border = '3px solid hsl(26, 100%, 55%) ';
+    document.querySelector('.thumbnail-container-product-2').style.opacity = '0.7';
+    
+    document.querySelector('.thumbnail-container-product-1').style.border = '3px solid white';
+    document.querySelector('.thumbnail-container-product-1').style.opacity = '1';
+    document.querySelector('.thumbnail-container-product-3').style.border = '3px solid white';
+    document.querySelector('.thumbnail-container-product-3').style.opacity = '1';
+    document.querySelector('.thumbnail-container-product-4').style.border = '3px solid white';
+    document.querySelector('.thumbnail-container-product-4').style.opacity = '1';
+});
+document.querySelector('.thumbnail-container-product-3').addEventListener("click", () => {
+    document.querySelector('.thumbnail-container-product-3').style.border = '3px solid hsl(26, 100%, 55%) ';
+    document.querySelector('.thumbnail-container-product-3').style.opacity = '0.7';
+
+    document.querySelector('.thumbnail-container-product-1').style.border = '3px solid white';
+    document.querySelector('.thumbnail-container-product-1').style.opacity = '1';
+    document.querySelector('.thumbnail-container-product-2').style.border = '3px solid white';
+    document.querySelector('.thumbnail-container-product-2').style.opacity = '1';
+    document.querySelector('.thumbnail-container-product-4').style.border = '3px solid white';
+    document.querySelector('.thumbnail-container-product-4').style.opacity = '1';
+});
+document.querySelector('.thumbnail-container-product-4').addEventListener("click", () => {
+    document.querySelector('.thumbnail-container-product-4').style.border = '3px solid hsl(26, 100%, 55%) ';
+    document.querySelector('.thumbnail-container-product-4').style.opacity = '0.7';
+
+    document.querySelector('.thumbnail-container-product-1').style.border = '3px solid white';
+    document.querySelector('.thumbnail-container-product-1').style.opacity = '1';
+    document.querySelector('.thumbnail-container-product-3').style.border = '3px solid white';
+    document.querySelector('.thumbnail-container-product-3').style.opacity = '1';
+    document.querySelector('.thumbnail-container-product-2').style.border = '3px solid white';
+    document.querySelector('.thumbnail-container-product-2').style.opacity = '1';
+});
