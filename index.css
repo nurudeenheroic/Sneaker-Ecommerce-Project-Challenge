@@ -10,10 +10,19 @@ body{
 }
 .navigation-bar{
     display: flex;
-    padding: 0px 10px;
+    flex: 1;
     border-bottom: 1px solid rgb(209, 207, 207);
-    gap: 45px;
+    gap: 5%;
+    width: 100%;
     align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-bottom: 2px;
+    position: relative;
+}
+.menu, 
+.nav-links2{
+    display: none;
 }
 .logo{
     align-items: center;
