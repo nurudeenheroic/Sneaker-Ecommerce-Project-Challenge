@@ -35,6 +35,9 @@
         </div>
         
         <div class="logo">
+            <div class="menu">
+             <img src="images/icon-menu.svg" alt="" srcset="">
+            </div>
             <img src="./images/logo.svg" alt="">
         </div>
         <div class="nav-links">
@@ -48,14 +51,17 @@
                 <a href="">Women</a>
             </div>
             <div>
-                <a href="">About</a>
+                <a href="">About Us</a>
             </div>
             <div>
-                <a href="">About Us</a>
+                <a href="">Contact Us</a>
             </div>
         </div>
         <div class="profile-section">
-            <a href=""><img src="./images/icon-cart.svg" alt="" class="cart-img"></a> <a href=""><img src="./images/image-avatar.png" alt="" class="profile-img"></a>
+            <button class="cart-button">
+                <img src="./images/icon-cart.svg" alt="" class="cart-img"> 
+            </button>
+        <a href=""><img src="./images/image-avatar.png" alt="" class="profile-img"></a>
             <div class="cart-variable">0</div>
         </div>
     </header>
@@ -84,19 +90,23 @@
             <p class="product-description">
                 These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.
             </p>
-            <p class="product-price">
-                $125.00 <span class="percent-off">50%</span>
+            <p class="price-p">
+                <span class="product-price">
+                    $125.00 <span   class="percent-off">50%</span>
+                </span>
+                <span class="former-product-price">
+                    <strike>$250.00</strike>
+                </span>
             </p>
-            <p class="former-product-price">
-                <strike>$250.00</strike>
-            </p>
+            
             <div class="quantityAdd-to-cart">
                 <div class="quantity-selector">
-                    <button class="quantity-button js-minus-button" >-</button><span class="quantity-view">0</span><button class="quantity-button js-add-button">+</button>
+                    <button class="quantity-button js-minus-button" > <img src="images/icon-minus.svg"></button><span class="quantity-view">1</span><button class="quantity-button js-add-button"><img src="images/icon-plus.svg"></button>
                 </div>
                 <div class="add-to-cart">
                     <button class="add-to-cart-btn js-add-to-cart-btn"><img src="./images/icon-cart.svg" alt=""> Add to cart</button>
                 </div>
+               
             </div>
         </div>
     </main>
