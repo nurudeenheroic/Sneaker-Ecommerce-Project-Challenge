@@ -173,33 +173,54 @@ body{
     gap: 10%;
     padding: 30px 5% 20px 5%;
 }
-.image-section{
+.image-section, 
+.light-mode-image-container {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     gap: 20px;
     flex: 1;
 }
-.large-image-container{
+.large-image-container, 
+.large-image-container2 {
     width: 100%;
     max-width: 600px;
     max-height: 450px;
     flex: 1;
     border-radius: 10px ;
 }
-.large-image{
+.large-image, 
+.large-image2 {
     height: 100%;
     width: 100%;
     border-radius: 10px;
 }
-.thumbnail-div-container{
+.thumbnail-div-container, 
+.thumbnail-div-container2 {
     display: flex;
     width: 100%;
     max-width: 600px;
     flex-direction: row;
     gap: 10px;
 }
-.thumbnail-container-product-1, .thumbnail-container-product-2, .thumbnail-container-product-3, .thumbnail-container-product-4 {
+.thumbnail-container-product-1, 
+.thumbnail-container-product-2, 
+.thumbnail-container-product-3, 
+.thumbnail-container-product-4 {
+    flex: 1;
+    max-height: 100px;
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: white;
+    border: 3px solid rgb(255, 255, 255);
+    transition: box-shadow 0.2s, opacity 0.2s;
+}
+.thumbnail2-container-product-1, 
+.thumbnail2-container-product-2, 
+.thumbnail2-container-product-3, 
+.thumbnail2-container-product-4 {
     flex: 1;
     max-height: 100px;
     border-radius: 8px;
@@ -209,11 +230,18 @@ body{
     background-color: white;
     border: 3px solid white;
 }
-.thumbnail-container-product-1:hover, .thumbnail-container-product-2:hover, .thumbnail-container-product-3:hover, .thumbnail-container-product-4:hover{
-    border: 3px solid hsl(26, 100%, 55%) ;
+.thumbnail-container-product-1:hover, 
+.thumbnail2-container-product-1:hover,
+.thumbnail2-container-product-2:hover, 
+.thumbnail2-container-product-3:hover, 
+.thumbnail2-container-product-4:hover,  
+.thumbnail-container-product-2:hover, 
+.thumbnail-container-product-3:hover, 
+.thumbnail-container-product-4:hover{
     opacity: 0.7;
 }
-.thumbnail{
+.thumbnail, 
+.thumbnail2 {
     width: 100%;
     height: 100%;
     border: none;
