@@ -41,6 +41,16 @@ let cartItemId = 0; // Unique ID counter for cart items
 
 // Variables for building cart HTML and thumbnails
 let thumbnails = '';
+let thumbnails2 = '';
+let cartProductsHTML = '';
+
+const forwardButton2 = document.querySelector('.forward-btn2');
+const previousButton2 = document.querySelector('.previous-btn2');
+const CancelLightMode = document.querySelector('.close-light-mode');
+const lightMode = document.querySelector('.light-mode');
+const forwardButton = document.querySelector('.forward-btn');
+const previousButton = document.querySelector('.previous-btn');
+const navLinks2 = document.querySelector('.nav-links2');
 products.forEach((product) => {
     let thumbnailHTML = `<button class="thumbnail-container-${product.name}">
     <img src="./images/image-${product.name}-thumbnail.jpg" alt="" class="thumbnail">
