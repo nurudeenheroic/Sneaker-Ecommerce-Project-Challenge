@@ -1,18 +1,7 @@
-let  quantity = 0 ;
+// Track the quantity of items the user wants to add
+let  quantity = 1 ;
 
-document.querySelector('.js-add-button').addEventListener("click", () => {
-    quantity += 1;
-    document.querySelector('.quantity-view').innerText = quantity;
-});
-document.querySelector('.js-minus-button').addEventListener("click", () => {
-    if (quantity === 0) {
-        return
-    } else {
-        quantity = quantity - 1;
-    document.querySelector('.quantity-view').innerText = quantity;
-    }
-});
-
+// Product data array with image, thumbnail, name, and price
 let products = [{
     image: 'images/image-product-1.jpg',
     thumbnail: 'images/image-product-1-thumbnail',
@@ -36,8 +25,21 @@ let products = [{
     thumbnail: 'images/image-product-4-thumbnail',
     name:'product-4',
     price: '125.00',
-    quantity: 0,
 }];
+
+// Track the currently selected product and its index
+let currentProductIndex = 0;
+let currentProduct = products[currentProductIndex];
+
+// DOM references for cart display and counter
+let variable = document.querySelector('.cart-variable');
+let ProductinCart = 0;
+
+// Cart array to store cart items
+let cart = [];
+let cartItemId = 0; // Unique ID counter for cart items
+
+// Variables for building cart HTML and thumbnails
 let thumbnails = '';
 products.forEach((product) => {
     let thumbnailHTML = `<button class="thumbnail-container-${product.name}">
