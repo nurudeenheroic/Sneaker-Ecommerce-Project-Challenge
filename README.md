@@ -45,8 +45,8 @@ User should be able to:     - View the optimal layout for the site depending on 
   - ![alt text](design/my-ecommerce-project-thumbnail-effects-items-in-cart.png).
 
 ## Links
-[] ()
-[] ()
+[Solution Link] (https://www.frontendmentor.io/solutions/javascript-for-ui-and-dom-manipulation-css-flexbox-for-layout-fHptwYUGS9)
+[Live Server] (https://69d459ed76aad70336a414be--luminous-genie-083fcf.netlify.app/)
 
 ## My Process
 
