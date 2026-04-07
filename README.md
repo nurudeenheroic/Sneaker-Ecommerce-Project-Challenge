@@ -27,10 +27,26 @@ User should be able to:     - View the optimal layout for the site depending on 
                             - Add items to the cart;
                             - View the cart and remove items from it.
 
-##  Screenshots
+### The Features
+  - Responsive design (mobile, tablet, desktop);
+  - Interactive UI elements;
+  - Clean and modern layout;
+  - Fast loading performance.
 
+##  Screenshots
+  - ![alt text](design/my-ecommerce-project-desktop-empty-cart.png);
+  - ![alt text](design/my-ecommerce-project-desktop-hover-effect-empty-cart.png);
+  - ![alt text](design/my-ecommerce-project-desktop-light-mode.png);
+  - ![alt text](design/my-ecommerce-project-mobile-cart-view.png);
+  - ![alt text](design/my-ecommerce-project-desktop-view.png);
+  - ![alt text](design/my-ecommerce-project-mobile-view-light-mode.png);
+  - ![alt text](design/my-ecommerce-project-mobile-view-menu.png);
+  - ![alt text](design/my-ecommerce-project-mobile-view.png);
+  - ![alt text](design/my-ecommerce-project-thumbnail-effects-items-in-cart.png).
 
 ## Links
+[] ()
+[] ()
 
 ## My Process
 
@@ -42,35 +58,27 @@ User should be able to:     - View the optimal layout for the site depending on 
 - Javascript.
 
 ### What I learned
-
+  - I learnt more about DOM manipulation to change contents and style of targeted elements;
+  - I learnt more about Conditions and function calling;
+  - I learnt more about using arrays and objects to store data and how to target those data efficiently and effectively.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- DOM Manipulation;
+- Arrays and objects;
+- Foreach functions, other functions and conditions;
+- Clean code writing and arranging.
 
 ### AI Collaboration
-
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
-
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
-
-**Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
+  VSCODE COPILOT AI
+- I used VSCode Copilot AI to brainstorm ideas on cleaner and efficient codes for features like the 'add to cart' and 'image change' features;
+- It also aided in dividing the code into sections for easy reading and comments for better understanding of the code;
+- The AI was helpful but sometimes too sophisticated. It complicates easy codes which results in bugs which I had to debug such as a bug found in  the cart variable when items are added or removed from the cart and so on.
 
 ## Author
 - name - YUSUF NURUDEEN ADEBAYO (Luminus)
-- Whatsapp - 07075573916
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-- Linkedin - @
+- Whatsapp Number - 07075573916
+- Github [@nurudeenheroic](https://github.com/nurudeenheroic);
+- Frontend Mentor - [@nurudeenheroic](https://www.frontendmentor.io/profile/nurudeenheroic);
+- Instagram - [@nuru_deenyusuf](https://www.instagram.com/nuru_deenyusuf?igsh=YTlrZTI4Y3lzOW0x);
+- Linkedin - [@nurudeen_yusuf](https://www.linkedin.com/in/nurudeen-yusuf-384891378?utm_source=share_via&utm_content=profile&utm_medium=member_android);
